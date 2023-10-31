@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: finishLV4
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-398.0,"y":-92.0},"guid":"dc39d7e1-d682-4b0d-a2d4-3f815341f3fb","$version":"A","$type":"Unity.VisualScripting.OnCollisionEnter","$id":"9"},{"chainable":false,"parameterNames":["sceneName"],"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"MMenu","$type":"System.String"}},"position":{"x":217.0,"y":-36.0},"guid":"d2e11644-f66a-46fe-8c9e-6aa53ae14aa6","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"2473202e-2a1f-4f07-8efe-763ff3785cb4","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
